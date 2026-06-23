@@ -1,0 +1,163 @@
+# ─────────────────────────────────────────
+# ENVIRONMENT & SECRETS
+# ─────────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env.example
+*.env
+
+# ─────────────────────────────────────────
+# NODE / NPM
+# ─────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+.npmrc
+
+# ─────────────────────────────────────────
+# BUILD OUTPUTS
+# ─────────────────────────────────────────
+dist/
+build/
+out/
+client/dist/
+client/build/
+server/dist/
+
+# ─────────────────────────────────────────
+# VITE
+# ─────────────────────────────────────────
+.vite/
+vite.config.js.timestamp-*
+
+# ─────────────────────────────────────────
+# LOGS
+# ─────────────────────────────────────────
+logs/
+*.log
+*.log.*
+log/
+combined.log
+error.log
+access.log
+server.log
+
+# ─────────────────────────────────────────
+# UPLOADS / MEDIA (user-generated content)
+# ─────────────────────────────────────────
+server/uploads/
+client/public/uploads/
+uploads/
+media/
+
+# ─────────────────────────────────────────
+# COVERAGE & TESTING
+# ─────────────────────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+jest.config.js.bak
+test-results/
+playwright-report/
+cypress/screenshots/
+cypress/videos/
+
+# ─────────────────────────────────────────
+# EDITOR & IDE
+# ─────────────────────────────────────────
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# JetBrains (WebStorm, IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+Session.vim
+
+# Emacs
+*~
+\#*\#
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ─────────────────────────────────────────
+# OS GENERATED
+# ─────────────────────────────────────────
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ─────────────────────────────────────────
+# DOCKER (if used later)
+# ─────────────────────────────────────────
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# ─────────────────────────────────────────
+# CACHE
+# ─────────────────────────────────────────
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.turbo/
+.next/
+.nuxt/
+
+# ─────────────────────────────────────────
+# TYPESCRIPT (if migrated later)
+# ─────────────────────────────────────────
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ─────────────────────────────────────────
+# MISC
+# ─────────────────────────────────────────
+*.bak
+*.tmp
+*.temp
+*.orig
+*.pid
+*.seed
+*.pid.lock
+.vercel
+.netlify
