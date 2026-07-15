@@ -2,27 +2,29 @@
 
 /* ── Custom Theme Tokens & Utilities ── */
 @theme {
-  --color-brand-50: #f0fdfa;
-  --color-brand-100: #ccfbf1;
-  --color-brand-200: #99f6e4;
-  --color-brand-300: #5eead4;
-  --color-brand-400: #2dd4bf;
-  --color-brand-500: #14b8a6;
-  --color-brand-600: #0d9488;
-  --color-brand-700: #0f766e;
-  --color-brand-800: #115e59;
-  --color-brand-900: #134e4a;
-  --color-brand-950: #042f2e;
+  --color-brand-50: #FFF7F9;
+  --color-brand-100: #FCECF1;
+  --color-brand-200: #F8DCE5;
+  --color-brand-300: #F2C8D6;
+  --color-brand-400: #E9A8BD;
+  --color-brand-500: #D887A2;
+  --color-brand-600: #C96E8B;
+  --color-brand-700: #AA5672;
+  --color-brand-800: #86445A;
+  --color-brand-900: #643443;
+  --color-brand-950: #47242F;
 
-  --color-bg-base: #ffffff;
-  --color-bg-surface: #f8fafc;
-  --color-bg-elevated: #ffffff;
-  --color-text-base: #0f172a;
-  --color-text-muted: #64748b;
-  --color-border-base: #e2e8f0;
+  --color-bg-base: #FCF8F8;
+  --color-bg-surface: #FFFDFD;
+  --color-bg-elevated: #FFFFFF;
 
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+  --color-text-base: #2F2A2B;
+  --color-text-muted: #6D6668;
+
+  --color-border-base: #EADDE2;
+
+  --font-sans: 'Manrope', sans-serif;
+  --font-display: 'Playfair Display', serif;
 }
 
 /* Dark Mode Overrides (manual class-based or media) */
