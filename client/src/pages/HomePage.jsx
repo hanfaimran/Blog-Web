@@ -50,7 +50,7 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>BlogWeb — Discover Amazing Stories</title>
+        <title>Bloom Journal | Stories, Ideas & Inspiration</title>
         <meta name="description" content="Explore thought-provoking articles, tutorials, and stories from our community of writers." />
         <meta property="og:title" content="BlogWeb — Discover Amazing Stories" />
         <meta property="og:description" content="Explore thought-provoking articles, tutorials, and stories from our community of writers." />
@@ -65,7 +65,7 @@ const HomePage = () => {
       >
         <div className="hero-bg-gradient" />
         <div className="hero-content">
-          <span className="hero-badge">✦ Welcome to BlogWeb</span>
+          <span className="hero-badge">Featured Stories</span>
           <h1 className="hero-title">
             Where Ideas Come to <span className="gradient-text">Life</span>
           </h1>
